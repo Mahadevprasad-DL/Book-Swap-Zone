@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Books</title>
+    <style>
+        /* Background and Layout */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(45deg, #6a11cb, #2575fc);
+            background-size: 200% 200%;
+            animation: backgroundAnimation 10s ease infinite;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 2s;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px 20px;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: slideIn 1s ease-out;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .header a:hover {
+            color: #ff6f61;
+            transform: scale(1.1);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 120px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, white, white);
+            border-radius: 20px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+            animation: slideIn 1s ease-out;
+            border: 3px solid rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d2d2d;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Image Grid */
+        .image-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 20px;
+        }
+
+        .image-grid div {
+            animation: slideIn 1.5s ease-out;
+            animation-delay: calc(0.5s * var(--delay));
+            animation-fill-mode: backwards;
+            text-align: center;
+            flex: 1;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .image-grid p {
+            margin-top: 10px;
+            color: #2d2d2d;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Description */
+        .description {
+            text-align: center;
+            margin-top: 20px;
+            color: #2d2d2d;
+            font-size: 18px;
+            animation: fadeIn 2s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <a href="search.php">search Book</a>
+        <a href="donate.php">Donate</a>
+        <a href="favorite.php">favorite</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Exchange Books</h1>
+
+        <div class="image-grid">
+            <div style="--delay: 1">
+                <img src="images/book1.jpg" alt="Book 1"> <!-- Replace with actual image path -->
+                <p>Step 1: Choose a book you want to exchange.</p>
+            </div>
+            <div style="--delay: 2">
+                <img src="images/book2.jpg" alt="Book 2"> <!-- Replace with actual image path -->
+                <p>Step 2: Find a book you want in return.</p>
+            </div>
+            <div style="--delay: 3">
+                <img src="images/book3.jpg" alt="Book 3"> <!-- Replace with actual image path -->
+                <p>Step 3: Complete the exchange process!</p>
+            </div>
+        </div>
+
+        <div class="description">
+            <p>Our exchange program allows you to swap your pre-owned books with others in the community. Simply follow the steps above to get started!</p>
+        </div>
+    </div>
+
+</body>
+</html>
