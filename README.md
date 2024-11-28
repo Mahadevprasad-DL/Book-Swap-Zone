@@ -17,9 +17,9 @@ For Exchange: Swap books with other users directly through the platform.
 
 #  Tech Stack
 
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL
-Server: XAMPP for local development
-Version Control: Git and GitHub
+* Frontend: HTML, CSS, JavaScript
+* Backend: PHP
+* Database: MySQL
+* Server: XAMPP for local development
+* Version Control: Git and GitHub
 
