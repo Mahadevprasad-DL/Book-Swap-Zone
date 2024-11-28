@@ -40,4 +40,8 @@ Add screenshots of key pages, such as:
 
 ![Screenshot (630)](https://github.com/user-attachments/assets/edc3c244-d895-4747-99d6-8b9347b23ae0)
 
+# Contact
 
+* Developed by :- Mahadevprasad DL ( Girish )
+* Email :- girishdl78524@gmail.com
+  
