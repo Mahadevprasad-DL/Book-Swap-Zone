@@ -27,6 +27,17 @@ For Exchange: Swap books with other users directly through the platform.
 Add screenshots of key pages, such as:
 
 * Homepage
+
+  ![Screenshot (628)](https://github.com/user-attachments/assets/28b47315-e71a-41d4-a00f-0e26ca75202d)
+
+
 * Book listing page
+
+  ![Screenshot (629)](https://github.com/user-attachments/assets/95d6800d-9566-40f7-9f2a-674e7fe45e32)
+
+
 * Seller dashboard
+
+![Screenshot (630)](https://github.com/user-attachments/assets/edc3c244-d895-4747-99d6-8b9347b23ae0)
+
 
