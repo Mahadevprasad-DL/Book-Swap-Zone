@@ -23,3 +23,10 @@ For Exchange: Swap books with other users directly through the platform.
 * Server: XAMPP for local development
 * Version Control: Git and GitHub
 
+# Screenshots
+Add screenshots of key pages, such as:
+
+* Homepage
+* Book listing page
+* Seller dashboard
+
